@@ -1,0 +1,10 @@
+//Fix kill 1 error || Auto Kill 1
+setTimeout(() => {
+  if (!client || !client.user) {
+    console.log("Client Not Login, Process Kill")
+    process.kill(1);
+  } else {
+    console.log("Client Login")
+  }
+}, 3*1000*60); 
+//https://ra3dstudio.com CopyRight Codes
