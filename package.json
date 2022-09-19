@@ -1,0 +1,18 @@
+{
+"name": "euiz dev",
+"version": "1.0.0",
+"description": "euiz dev",
+"main": "index.js",
+"scripts": {
+  "start": "node indix.js"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"dependencies": {
+  "discord.js" "^12.5.1"
+},
+"engines": {
+  "node": "12.x"
+ }
+}
